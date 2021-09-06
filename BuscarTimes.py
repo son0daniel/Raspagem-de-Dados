@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup #Importar BeautifulSoup para trabalhar com HTML
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-url = 'https://ge.globo.com/sp/futebol/paulista-segunda-divisao/'
+url = 'https://ge.globo.com/futebol/brasileirao-serie-a/'
 op = webdriver.ChromeOptions()
 op.add_argument('headless') #Argumento que impede que o navegador seja aberto e trabalhe silenciosamente
 driver = webdriver.Chrome('./chromedriver.exe', options=op) #Pega o webdriver do Chrome localizado na pasta
